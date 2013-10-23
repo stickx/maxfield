@@ -1,4 +1,3 @@
-
 import sys
 
 args = sys.argv
@@ -61,7 +60,7 @@ else:
         print 'WARNING: output file should end in "pkl" or you cannot use it as input later'
 
 nagents = int(args[1])
-if nagents < 0:
+if nagents < 1:
     print 'Numer of agents should be positive'
     exit()
 
